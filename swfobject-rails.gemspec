@@ -5,9 +5,9 @@ require "swfobject/rails/version"
 Gem::Specification.new do |s|
   s.name        = "swfobject-rails"
   s.version     = Swfobject::Rails::VERSION
-  s.authors     = ["Corin Langosch"]
-  s.email       = ["info@corinlangosch.com"]
-  s.homepage    = "https://github.com/gucki/swfobject-rails"
+  s.authors     = ["Jan Renz"]
+  s.email       = ["jan.renz@hpi.uni-potsdam.de"]
+  s.homepage    = "https://github.com/jprberlin/swfobject-rails"
   s.summary     = %q{Integration of swfobject with the Rails 3.x asset pipeline}
   s.description = %q{This gem integrates swfobject with the Rails 3.x asset pipeline.}
 
