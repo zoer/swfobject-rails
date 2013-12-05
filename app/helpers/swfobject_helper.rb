@@ -58,7 +58,7 @@ module SwfobjectHelper
     alt_content = capture(&block) if block_given?
     
     # And finally, render the partial
-    render partial,
+    render :partial      => partial,
       :file              => file,
       :id                => id,
       :version           => version,
