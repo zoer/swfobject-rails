@@ -59,12 +59,14 @@ module SwfobjectHelper
     
     # And finally, render the partial
     render :partial      => partial,
-      :file              => file,
-      :id                => id,
-      :version           => version,
-      :params            => params,
-      :attributes        => options,
-      :alternate_content => alt_content
+      :locals => {
+        :file              => file,
+        :id                => id,
+        :version           => version,
+        :params            => params,
+        :attributes        => options,
+        :alternate_content => alt_content
+      }
   end
   alias :swfobject :swf_tag
   
